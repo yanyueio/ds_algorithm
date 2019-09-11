@@ -54,7 +54,7 @@ public class LinkedList<E> {
         */
 
         //简写
-        head = new Node(e, head);
+        head.next = new Node(e, head);
 
         //维护链表长度
         size++;
